@@ -1,0 +1,150 @@
+vi:
+  layout:
+    titlebase: "Ứng dụng mẫu cho ruby on rails"
+    App: "Ứng dụng mẫu"
+    english: "Tiếng Anh"
+    vietnam: "Tiếng Việt"
+    tutorial: "Hướng dẫn Ruby on Rails"
+    The: ""
+    by: "bởi"
+    About: "Thông tin"
+    Contact: "Liên hệ"
+    News: "Tin tức"
+    Home: "Trang chủ"
+    login: "Đăng nhập"
+    Help: "Trợ giúp"
+    Signupnow: "Đăng ký ngay bây giờ"
+    Signup: "Đăng ký"
+    account: "Tài khoản"
+    users: "Người dùng"
+    profile: "Hồ sơ"
+    settings: "Cài đặt"
+    logout: "Đăng xuất"
+  will_paginate:
+    next_label: "Trang sau"
+    previous_label: "Trang trước"
+  static_pages:
+    about:
+      book: "sách"
+      intro: "Đây là ứng dụng mẫu cho bài hướng dẫn."
+      tutorial: "Hướng dẫn Ruby on Rails"
+      is: "là một"
+      screencast: "chuỗi thu hình"
+      teach: "để dạy lập trình web với"
+      title: "Thông tin thêm"
+    contact:
+      instruction: "Liên hệ với hướng dẫn của Ruby on Rails về ứng dụng mẫu tại"
+      page: "trang liên hệ"
+      title: "Liên hệ"
+    help:
+      book: "sách"
+      tutorial: "Hướng dẫn Ruby on Rails"
+      instruction1: "Tìm kiếm giúp đỡ với Ruby on Rails tại"
+      instruction2: "Để tìm kiếm sự giúp đỡ với ứng dụng mẫu thì có tại"
+      page: "trang giúp đỡ về Rails"
+      title: "Giúp đỡ"
+    home:
+      intro: "Đây là trang chủ cho"
+      title: "Trang chủ"
+      tutorial: "Hướng dẫn Ruby on Rails"
+      application: "Ứng dụng mẫu"
+      english: "Tiếng Anh"
+      vietnam: "Tiếng Việt"
+  users:
+    new:
+      create: "Tạo tài khoản"
+      title: "Đăng ký"
+    edit:
+      title: "Cập nhật tài khoản"
+      update: "Cập nhật"
+    index:
+      title: "Danh sách người dùng"
+    user:
+      confirm: "Bạn chắc chắn?"
+      delete: "xóa"
+  sessions:
+    new:
+      newuser: "Chưa có tài khoản?"
+      signupnow: "Đăng ký ngay bây giờ!"
+      title: "Đăng nhập"
+      login: "ĐĂNG NHẬP"
+      remember: "Ghi nhớ đăng nhập."
+      forgot: "Quên mật khẩu?"
+  password_resets:
+    new:
+      title: "Khôi phục mật khẩu"
+      base_title: "Quên mật khẩu"
+      submit: "Gửi"
+    edit:
+      title: "Đặt lại mật khẩu"
+      submit: "Cập nhật mật khẩu"
+  model:
+    user:
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+  activerecord:
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+  errors:
+    error: "lỗi"
+    counterror: "Thông tin bạn vừa nhập có"
+    format: "%{attribute} %{message}"
+    messages:
+      blank: "không được bỏ trống."
+      too_short: quá ngắn (ít nhất %{count} kí tự)
+      accepted: phải được chấp nhận.
+      present: phải bỏ trống.
+      confirmation: không trùng với %{attribute}.
+      empty: không được bỏ trống.
+      equal_to: phải bằng %{count}.
+      greater_than: phải lớn hơn %{count}.
+      greater_than_or_equal_to: phải lớn hơn hoặc bằng %{count}.
+      invalid: không hợp lệ.
+      less_than: phải nhỏ hơn %{count}.
+      less_than_or_equal_to: phải nhỏ hơn hoặc bằng %{count}.
+      not_a_number: không nhập vào 1 số.
+      not_an_integer: phải là số nguyên.
+      required: là bắt buột.
+      taken: đã được sử dụng.
+      too_long:
+        one: quá dài (tối đa 1 kí tự ).
+        other: quá dài (tối đa %{count} kí tự ).
+      too_short:
+        one: quá ngắn (ít nhất 1 kí tự).
+        other: quá ngắn (ít nhất %{count} kí tự).
+      wrong_length:
+        one: chỉ được 1 kí tư.
+        other: chỉ được %{count} kí tự.
+  flash:
+    welcome: "Chào mừng đến với ứng dụng mẫu ruy on rails!"
+    login_error: "Tài khảon hoặc mật khẩu không đúng!"
+    updated: "Cập nhật thông tin thành công"
+    deleted: "Xóa người dùng thành công"
+    notlogin: "Xin hảy đăng nhập"
+    nouser: "Người dùng không tồn tại!"
+    delete_fail: "Xóa ngưòi dùng không thành công"
+    not_active_user: "Tài khoản chưa được kích hoạt."
+    activation_mail: "Kiểm tra email để nhận link kích hoạt."
+    active_success: "Kích hoạt tài khoản thành công."
+    active_fail: "Kích hoạt thất bại, link không hợp lệ."
+    email_reset: "Đã gửi email thay đổi mật khẩu vào email của bạn!"
+    expire_reset: "Liên kết của bạn đã hết hạn!"
+    wrong_email: "Email không đúng!"
+    success_reset: "Cập nhật mật khẩu mới thành công"
+  user_mailer:
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+      hello: "Chào "
+      active: "Kich hoạt"
+      welcome: "Cảm ơn bạn đã sử dụng ứng dụng mẫu! chọn vào liên kết để kích hoạt tài khoản của bạn:"
+    password_reset:
+      subject: "Khôi phục tài khoản"
+      instruction: "Chọn vào link sau để khôi phục mật khẩu của bạn:"
+      expire: "Liên kết sẽ hết hiệu lực sau 2 giờ."
+      warning: "Nếu bạn không phải là người yêu cầu lấy lại mật khẩu, xin hảy bỏ qua email này, mật khẩu của bạn sẽ không có gì thay đổi."
+

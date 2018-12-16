@@ -1,0 +1,7 @@
+<%= t(".hello") + @user.name %>,
+<%= t(".welcome") %>,
+
+<%= edit_account_activation_url(
+@locale,
+@user.activation_token,
+email: @user.email) %>

@@ -1,0 +1,15 @@
+<footer class="footer">
+  <small>
+    <%= t "layout.The" %><a href="http://www.railstutorial.org/"><%= t "layout.tutorial" %></a>
+    <%= t "layout.by" %> <a href="http://www.michaelhartl.com/">Michael Hartl</a>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("layout.About"), about_path %></li>
+      <li><%= link_to t("layout.Contact"), contact_path %></li>
+      <li><a href="http://news.railstutorial.org/"><%= t "layout.News" %></a></li>
+      <li><%= link_to t("layout.english"), locale: "en" %>
+      <li><%= link_to t("layout.vietnam"), locale: "vi" %>
+    </ul>
+  </nav>
+</footer>
