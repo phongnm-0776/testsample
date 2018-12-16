@@ -1,7 +1,4 @@
 vi:
-  datetime:
-    distance_in_words:
-      about_x_hours: khoảng %{count} giờ
   layout:
     titlebase: "Ứng dụng mẫu cho ruby on rails"
     App: "Ứng dụng mẫu"
@@ -53,23 +50,7 @@ vi:
       application: "Ứng dụng mẫu"
       english: "Tiếng Anh"
       vietnam: "Tiếng Việt"
-      micropost_feed: "Bài viết gần đây"
-  shared:
-    user_info:
-      microposts: "Bài viết"
-      profile_link: "Trang cá nhân"
-    micropost_form:
-      compose: "Soạn thảo bài viết ..."
-      post: "Đăng Bài"
-  microposts:
-    micropost:
-      ago:  " trước"
-      posted: "Đã gửi "
-    confirm: "Bạn chắc chắn?"
-    delete: "xóa"
   users:
-    show:
-      microposts: "Bài viết"
     new:
       create: "Tạo tài khoản"
       title: "Đăng ký"
@@ -88,15 +69,6 @@ vi:
       title: "Đăng nhập"
       login: "ĐĂNG NHẬP"
       remember: "Ghi nhớ đăng nhập."
-      forgot: "Quên mật khẩu?"
-  password_resets:
-    new:
-      title: "Khôi phục mật khẩu"
-      base_title: "Quên mật khẩu"
-      submit: "Gửi"
-    edit:
-      title: "Đặt lại mật khẩu"
-      submit: "Cập nhật mật khẩu"
   model:
     user:
       name: "Tên"
@@ -109,15 +81,11 @@ vi:
         name: "Tên"
         email: "Email"
         password: "Mật khẩu"
-      micropost:
-        content: "Nội dung"
-        picture: "Ảnh"
   errors:
     error: "lỗi"
     counterror: "Thông tin bạn vừa nhập có"
     format: "%{attribute} %{message}"
     messages:
-      picture_too_large: "không quá %{count} MB"
       blank: "không được bỏ trống."
       too_short: quá ngắn (ít nhất %{count} kí tự)
       accepted: phải được chấp nhận.
@@ -155,19 +123,3 @@ vi:
     activation_mail: "Kiểm tra email để nhận link kích hoạt."
     active_success: "Kích hoạt tài khoản thành công."
     active_fail: "Kích hoạt thất bại, link không hợp lệ."
-    email_reset: "Đã gửi email thay đổi mật khẩu vào email của bạn!"
-    expire_reset: "Liên kết của bạn đã hết hạn!"
-    wrong_email: "Email không đúng!"
-    success_reset: "Cập nhật mật khẩu mới thành công"
-  user_mailer:
-    account_activation:
-      subject: "Kích hoạt tài khoản"
-      hello: "Chào "
-      active: "Kich hoạt"
-      welcome: "Cảm ơn bạn đã sử dụng ứng dụng mẫu! chọn vào liên kết để kích hoạt tài khoản của bạn:"
-    password_reset:
-      subject: "Khôi phục tài khoản"
-      instruction: "Chọn vào link sau để khôi phục mật khẩu của bạn:"
-      expire: "Liên kết sẽ hết hiệu lực sau 2 giờ."
-      warning: "Nếu bạn không phải là người yêu cầu lấy lại mật khẩu, xin hảy bỏ qua email này, mật khẩu của bạn sẽ không có gì thay đổi."
-
