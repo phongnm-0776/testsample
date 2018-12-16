@@ -14,6 +14,7 @@ class UsersController < ApplicationController
 
   def show
     redirect_to signup_path unless @user.present? || @user.activated
+    @microposts = @user.microposts.paginate(page: params[:page])
   end
 
   def create
@@ -57,12 +58,6 @@ class UsersController < ApplicationController
   end
 
   # Confirms a logged-in user.
-  def logged_in_user
-    return if logged_in?
-    store_location
-    flash[:danger] = t "flash.notlogin"
-    redirect_to login_path
-  end
 
   def correct_user
     load_user

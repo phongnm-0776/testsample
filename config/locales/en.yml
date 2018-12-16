@@ -45,7 +45,23 @@ en:
       tutorial: "Ruby on Rails Tutorial"
       application: "sample application"
       title: "Home"
+      micropost_feed: "Micropost feed"
+  shared:
+    user_info:
+      microposts: microposts
+      profile_link: "Profile"
+    micropost_form:
+      compose: "Compose micropost ..."
+      post: "Post"
+  microposts:
+    micropost:
+      ago:  " ago"
+      posted: "Posted "
+    confirm: "You sure?"
+    delete: "Delete"
   users:
+    show:
+      microposts: "Microposts"
     new:
       create: "Create my account"
       title: "Sign up"
@@ -88,6 +104,8 @@ en:
   errors:
     error: "error"
     counterror: "Form content"
+    message:
+      picture_too_large: "max size is %{count} MB"
   flash:
     welcome: "Welcome to the sample app!"
     login_error: "Invalid email/pasword combination"
@@ -116,4 +134,3 @@ en:
       expire: This link will expire in two hours.
       warning: "If you did not request your password to be reset, please ignore this email and
 your password will stay as it is."
-

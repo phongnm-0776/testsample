@@ -1,4 +1,7 @@
 vi:
+  datetime:
+    distance_in_words:
+      about_x_hours: khoảng %{count} giờ
   layout:
     titlebase: "Ứng dụng mẫu cho ruby on rails"
     App: "Ứng dụng mẫu"
@@ -50,7 +53,23 @@ vi:
       application: "Ứng dụng mẫu"
       english: "Tiếng Anh"
       vietnam: "Tiếng Việt"
+      micropost_feed: "Bài viết gần đây"
+  shared:
+    user_info:
+      microposts: "Bài viết"
+      profile_link: "Trang cá nhân"
+    micropost_form:
+      compose: "Soạn thảo bài viết ..."
+      post: "Đăng Bài"
+  microposts:
+    micropost:
+      ago:  " trước"
+      posted: "Đã gửi "
+    confirm: "Bạn chắc chắn?"
+    delete: "xóa"
   users:
+    show:
+      microposts: "Bài viết"
     new:
       create: "Tạo tài khoản"
       title: "Đăng ký"
@@ -90,11 +109,15 @@ vi:
         name: "Tên"
         email: "Email"
         password: "Mật khẩu"
+      micropost:
+        content: "Nội dung"
+        picture: "Ảnh"
   errors:
     error: "lỗi"
     counterror: "Thông tin bạn vừa nhập có"
     format: "%{attribute} %{message}"
     messages:
+      picture_too_large: "không quá %{count} MB"
       blank: "không được bỏ trống."
       too_short: quá ngắn (ít nhất %{count} kí tự)
       accepted: phải được chấp nhận.
