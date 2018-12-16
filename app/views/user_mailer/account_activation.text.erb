@@ -1,8 +1,7 @@
-Hi <%= @user.name %>,
-
-Welcome to the Sample App! Click on the link below to activate your account:
+<%= t(".hello") + @user.name %>,
+<%= t(".welcome") %>,
 
 <%= edit_account_activation_url(
-Settings.locales.default,
+@locale,
 @user.activation_token,
 email: @user.email) %>

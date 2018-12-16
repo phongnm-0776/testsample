@@ -14,12 +14,13 @@ class UsersController < ApplicationController
 
   def show
     redirect_to signup_path unless @user.present? || @user.activated
+    @microposts = @user.microposts.paginate(page: params[:page])
   end
 
   def create
     @user = User.new user_params
     if @user.save
-      @user.send_activation_email
+      @user.send_activation_email params[:locale]
       flash[:info] = t "flash.activation_mail"
       redirect_to root_url
     else
@@ -57,12 +58,6 @@ class UsersController < ApplicationController
   end
 
   # Confirms a logged-in user.
-  def logged_in_user
-    return if logged_in?
-    store_location
-    flash[:danger] = t "flash.notlogin"
-    redirect_to login_path
-  end
 
   def correct_user
     load_user

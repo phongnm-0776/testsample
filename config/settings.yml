@@ -17,4 +17,9 @@ users:
     chosen: "1"
 gravatar:
   default_size: 80
+micropost:
+  content:
+    max_length: 140
+  picture:
+    max_size: 5
 
